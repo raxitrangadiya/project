@@ -31,6 +31,10 @@ body{
 .fa-magnifying-glass{
     color: #125e91;
 }
+
+.align-center{
+    align-content: center;
+}
 .search input{
     border: 0;
     background-color:transparent;
@@ -68,4 +72,55 @@ body{
 }
 .sen1999{
     right: -20px;
+}
+.col33{
+    width: 33.33%;
+}
+/* img{
+    height: 480px;
+    width: 100%;
+} */
+.place{
+    
+}
+.text-center{
+text-align: center;
+font-size: 26px;
+letter-spacing: -1px;
+line-height: 44px;
+color: #0b5e98;
+font-weight: 500;
+font-family: "DM Sans";
+margin-top: 180px;
+}
+.text-justify{
+    text-align: justify;
+    font-size: 16px;
+    color: #0b5e98;
+    font-weight: 400;
+    font-family: "DM Sans";
+    margin: 0px 20px 0px 20px;
+  
+}
+.touch{
+    /* margin:25px 146px ; */
+    background-color: #2f709a;
+    color: #eae8d7;
+}
+.lern{
+    /* margin:25px 146px; */
+    color: #2f709a;
+    
+}
+.head-but{
+margin:32px 122px 25px 148px;
+font-size: 16px;
+font-size: 16px;
+letter-spacing: -1px;
+font-weight: 500;
+font-family: "DM Sans";
+text-align: center;
+border: 1px solid #2f709a;
+border-radius: 30px;
+width: 123px;
 }
