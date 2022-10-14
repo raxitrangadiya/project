@@ -30,10 +30,16 @@ body{
 }
 .fa-magnifying-glass{
     color: #125e91;
+    bottom: 72px;
+    right: 1px;
+}
+.logo{
+    margin-left:9px;
 }
 
 .align-center{
     align-content: center;
+    
 }
 .search input{
     border: 0;
@@ -48,8 +54,10 @@ body{
     width: 600px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0px;
+    top: 39px;
 }
+
 .main-heading h1{
     font-size: 107px;
     font-weight: 400;
@@ -80,9 +88,7 @@ body{
     height: 480px;
     width: 100%;
 } */
-.place{
-    
-}
+
 .text-center{
 text-align: center;
 font-size: 26px;
@@ -102,6 +108,9 @@ margin-top: 180px;
     margin: 0px 20px 0px 20px;
   
 }
+.align-item-end{
+    align-items: flex-end;
+}
 .touch{
     /* margin:25px 146px ; */
     background-color: #2f709a;
@@ -113,7 +122,7 @@ margin-top: 180px;
     
 }
 .head-but{
-margin:32px 122px 25px 148px;
+margin:33px 122px 25px 91px;
 font-size: 16px;
 letter-spacing: -1px;
 font-weight: 500;
@@ -121,5 +130,24 @@ font-family: "DM Sans";
 text-align: center;
 border: 1px solid #2f709a;
 border-radius: 50px;
-width: 123px;
+width: 180px;
+letter-spacing: 1px;
+}
+.head-line{
+top: 20px;
+border: none;
+height: 2px;
+background: #2f709a;
+}
+.head-text-center{
+text-align: center;
+font-size: 16px;
+letter-spacing: -1px;
+line-height: 27px;
+color: #0b5e98;
+font-weight: 500;
+font-family: "DM Sans";
+}
+.group-2{
+    align-items: center;
 }
