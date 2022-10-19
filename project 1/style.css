@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: 'Times New Roman';
+    src:url(./aseet/font/times\ new\ roman/Times);
+    
+}
 .div{
     border: 1px solid red;
 }
@@ -36,7 +41,6 @@ body{
 .logo{
     margin-left:9px;
 }
-
 .align-center{
     align-content: center;
     
@@ -57,7 +61,6 @@ body{
     margin-top: 0px;
     top: 39px;
 }
-
 .main-heading h1{
     font-size: 107px;
     font-weight: 400;
@@ -84,11 +87,6 @@ body{
 .col33{
     width: 33.33%;
 }
-/* img{
-    height: 480px;
-    width: 100%;
-} */
-
 .text-center{
 text-align: center;
 font-size: 26px;
@@ -112,7 +110,6 @@ margin-top: 180px;
     align-items: flex-end;
 }
 .touch{
-    /* margin:25px 146px ; */
     background-color: #2f709a;
     color: #eae8d7;
 }
@@ -149,5 +146,40 @@ font-weight: 500;
 font-family: "DM Sans";
 }
 .group-2{
-    align-items: center;
+    background-color: rgb( 17, 92, 144 );
+    width: 1340px;
+    margin: 0 auto;
 }
+.container-2{
+    width: 1230px;
+}
+.paregraph-g2 p{
+    font: 32px;
+}
+.img1{
+    height: 777px;
+    flex: end;
+}
+.img2{
+}
+.paregraph-g2 p{
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: -2px;
+    color: #e9e8d9;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Old Standard TT";
+    width: 547px;
+}
+.paregraph-g2 h3{
+text-align: center;
+font-size: 26px;
+letter-spacing: -1px;
+color: #e9e8d9;
+font-weight: 500;
+font-family: "DM Sans";
+}
+
+   
+  
