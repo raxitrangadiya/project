@@ -158,9 +158,11 @@ font-family: "DM Sans";
 }
 .img1{
     height: 777px;
-    flex: end;
+    bottom: 0px;
 }
 .img2{
+    height: 777px;
+    bottom: 0px;
 }
 .paregraph-g2 p{
     text-align: center;
@@ -171,6 +173,9 @@ font-family: "DM Sans";
     font-style: italic;
     font-family: "Old Standard TT";
     width: 547px;
+}
+..paregraph-g2{
+    height: 777px;
 }
 .paregraph-g2 h3{
 text-align: center;
