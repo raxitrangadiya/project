@@ -157,25 +157,39 @@ font-family: "DM Sans";
     font: 32px;
 }
 .img1{
-    height: 777px;
-    bottom: 0px;
-}
+    display: flex;
+    flex: start;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+    }
 .img2{
-    height: 777px;
-    bottom: 0px;
+display: flex;
+flex: start;
+flex-direction: column;
+margin-top: 20px;
 }
 .paregraph-g2 p{
     text-align: center;
-    font-size: 48px;
-    letter-spacing: -2px;
-    color: #e9e8d9;
-    font-weight: 400;
+    font-size:  50.983px;
+    color: rgb( 233, 232, 217 );
+    font-weight: 100;
     font-style: italic;
     font-family: "Old Standard TT";
-    width: 547px;
+    text-decoration:underline 2px solid #e9e8d9;
+    text-underline-offset: 22px;
+    justify-content: center;
+    line-height:62px;
+      }
+.h3what{
+    margin-top: 111px;
+
 }
-..paregraph-g2{
-    height: 777px;
+.pparegraph{
+    margin-top: 90px;
+    margin-bottom: 267px;
+}
+.paregraph-g2{
+    margin: 20px 10px 20px 10px;
 }
 .paregraph-g2 h3{
 text-align: center;
@@ -184,6 +198,8 @@ letter-spacing: -1px;
 color: #e9e8d9;
 font-weight: 500;
 font-family: "DM Sans";
+justify-content: center;
+margin-top: 100px;
 }
 
    
