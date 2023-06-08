@@ -1,5 +1,5 @@
 "use strict";
-
+let 
 var input = document.getElementById('input'), // input/output button
   number = document.querySelectorAll('.numbers div'), // number buttons
   operator = document.querySelectorAll('.operators div'), // operator buttons
@@ -9,7 +9,8 @@ var input = document.getElementById('input'), // input/output button
 
 // adding click handlers to number buttons
 for (var i = 0; i < number.length; i++) {
-  number[i].addEventListener("click", function(e) {
+  console.log("click on number");
+  number[i].addEventListener("click", function(e) {     
 
     // storing current input string and its last character in variables - used later
     var currentString = input.innerHTML;
@@ -25,7 +26,7 @@ for (var i = 0; i < number.length; i++) {
       input.innerHTML += e.target.innerHTML;
     } else {
       // if result is currently displayed and user pressed a number
-      // we need clear the input string and add the new input to start the new opration
+       // we need clear the input string and add the new input to start the new opration
       resultDisplayed = false;
       input.innerHTML = "";
       input.innerHTML += e.target.innerHTML;

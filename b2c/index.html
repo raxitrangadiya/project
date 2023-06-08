@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--  -->
+
+<header>
+    <h1>Admin Panel</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#students">Students</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <!-- Add dashboard content here -->
+    </section>
+
+    <div class="container">
+        <div id="faculty col-50">
+            <h2>Faculty</h2>
+            <div id="faculty-list">
+                <!-- Faculty list will be dynamically populated here -->
+            </div>
+
+            <form id="faculty-form">
+                <h3>Add Faculty</h3>
+                <label for="faculty-name">Name:</label>
+                <input type="text" id="faculty-name" required>
+                <br>
+                <label for="faculty-email">Email:</label>
+                <input type="email" id="faculty-email" required>
+                <br>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+
+        <div id="students col-50">
+            <h2>Students</h2>
+            <div id="student-list">
+                <!-- Student list will be dynamically populated here -->
+            </div>
+
+            <form id="student-form">
+                <h3>Add Student</h3>
+                <label for="student-name">Name:</label>
+                <input type="text" id="student-name" required>
+                <br>
+                <label for="student-email">Email:</label>
+                <input type="email" id="student-email" required>
+                <br>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2023 Your Organization. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+
+<!--  -->
+</body>
+
+</html>
