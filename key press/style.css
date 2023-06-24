@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 400px;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;
+    height: 100px;
+    line-height: 50px;
+    width: 300px;
+    background: rgba(159, 245, 218, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(159, 245, 218, 0.56);
+}
