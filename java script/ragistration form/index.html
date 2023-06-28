@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job ragistration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <form method="post">
+            <h1>Job Ragistration Form</h1>
+            <table>
+                <tr>
+                    <td><label for="name">First Name:</label></td>
+                    <td><input  type="text" id="name" class="thisrequired"></td>
+                </tr>
+                <tr>
+                    <td><label for="mname">Middle Name:</label></td>
+                    <td><input type="text" id="mname" class="thisrequired"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name:</label></td>
+                    <td><input type="text" id="lname" class="thisrequired"> </td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Address :</label></td>
+                    <td><textarea name="Address" id="Address" cols="50" rows="3" class="thisrequired"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="birthdate">Date of birth:</label></td>
+                    <td><input type="date" class="thisrequired"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" name="Gender" value="male" id="male"><label for="male">male</label>
+                        <input type="radio" name="Gender" value="female" id="female"><label for="male">female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mobile-no">Mobile no :</label></td>
+                    <td><input type="number" id="mobile-no" name="mobile-no" class="thisrequired"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Mail id:</label></td>
+                    <td><input type="email" id="mail" class="thisrequired" name="mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password :</label></td>
+                    <td><input type="password" class="thisrequired" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="cpassword">Confirm Password : </label></td>
+                    <td><input type="password" class="thisrequired" id="cpassword" name="cpassword"></td>
+                </tr>
+            </table>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

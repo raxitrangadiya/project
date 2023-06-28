@@ -1,0 +1,49 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #473e6662;
+}
+label{
+    color: white;
+}
+.form{
+border: 5px double black;
+padding: 20px;
+width: 600px;
+margin: 0 auto;
+background-color:#473e6698;
+}
+form>h1{
+    color: whitesmoke;
+    align-items: center;
+}
+
+input,textarea{
+
+    background-color: #cccbce98;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.submit{
+    background-color: rgba(218, 1, 1, 0.737);
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.submit:hover{
+    transition: 1s ;
+    background-color:white;
+    color: rgba(218, 1, 1, 0.737);
+    font-size: 20px;
+    padding: 7px;
+   
+}
+table{
+    padding: 10px;
+}
