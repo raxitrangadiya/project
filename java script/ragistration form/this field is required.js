@@ -1,4 +1,8 @@
 //validation for this field is required
+// for use this add class "thisrequired"
+
+
+
 let reqfields = document.getElementsByClassName("thisrequired")
 for (let index = 0; index < reqfields.length; index++) {
     // console.log(reqfields);
@@ -20,8 +24,5 @@ txt.style.color="red"
         }
     })
 }
-//name validation with id 
-let namevalidation=document.getElementById("name")
-
 
 
