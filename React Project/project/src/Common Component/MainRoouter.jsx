@@ -3,6 +3,7 @@ import Navbar from './Navbar.jsx'
 import Home from './Home.jsx'
 import Contact from './Contact.jsx'
 import Aboutus from './Aboutus.jsx'
+import Api from './Api.jsx'
 const router = createBrowserRouter([
     {
         path:"/",
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     {
         path:"/aboutus",
         element: <><Navbar/><Aboutus/></>
-    }
+    },
+    {
+        path:"/api",
+        element: <><Navbar/><Api/></>
+    },
 ])
 export default router;

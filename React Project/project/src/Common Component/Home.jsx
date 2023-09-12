@@ -3,7 +3,9 @@ import Slider from './Slider.jsx'
 const Home = () => {
     return (
         <>
+        <br />
         <Slider/>
+        
         </>
     );
 };

@@ -1,7 +1,7 @@
-.App {
-  text-align: center;
+body{
+  background-color: #b1b8b8;
+  /* color: white; */
 }
-
 .App-logo {
 width: 50px;
 display: block;

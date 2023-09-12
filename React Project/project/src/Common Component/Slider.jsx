@@ -1,75 +1,44 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class AsNavFor extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      nav1: null,
-      nav2: null
-    };
-  }
-
-  componentDidMount() {
-    this.setState({
-      nav1: this.slider1,
-      nav2: this.slider2
-    });
-  }
-
+export default class PauseOnHover extends Component {
   render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: false,
+      centerMode:true,
+    };
     return (
       <div>
-        <h2>Slider Syncing (AsNavFor)</h2>
-        <h4>First Slider</h4>
-        <Slider
-          asNavFor={this.state.nav2}
-          ref={slider => (this.slider1 = slider)}
-        >
+        <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/beach.jpeg" alt="beach" /></h3>
           </div>
           <div>
-            <h3>2</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/bee.webp" alt="bee" /></h3>
           </div>
           <div>
-            <h3>3</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/fish.jpeg" alt="fish" /></h3>
           </div>
           <div>
-            <h3>4</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/horse.jpeg" alt="horse" /></h3>
           </div>
           <div>
-            <h3>5</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/lake.webp" alt="lake" /></h3>
           </div>
           <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
-        <h4>Second Slider</h4>
-        <Slider
-          asNavFor={this.state.nav1}
-          ref={slider => (this.slider2 = slider)}
-          slidesToShow={5}
-          swipeToSlide={true}
-          focusOnSelect={true}
-        >
-          <div>
-            <h3>1</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/leaf.jpeg" alt="leaf" /></h3>
           </div>
           <div>
-            <h3>2</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/mountain.jpeg" alt="mountain" /></h3>
           </div>
           <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
+            <h3><img className="img-fluid shadow-2-strong " src="images/sky.jpeg" alt="sky" /></h3>
           </div>
         </Slider>
       </div>
