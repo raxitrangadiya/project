@@ -4,6 +4,7 @@ import Home from './Home.jsx'
 import Contact from './Contact.jsx'
 import Aboutus from './Aboutus.jsx'
 import Api from './Api.jsx'
+import Login from './Login.jsx'
 const router = createBrowserRouter([
     {
         path:"/",
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path:"/api",
         element: <><Navbar/><Api/></>
+    },
+    {
+        path:"/login",
+        element: <><Login/><Api/></>
     },
 ])
 export default router;

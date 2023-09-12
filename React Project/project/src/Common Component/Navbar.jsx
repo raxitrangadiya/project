@@ -47,7 +47,7 @@ return (
                         {ListData}
 
                     <MDBNavbarItem>
-                        <MDBDropdown>
+                        {/* <MDBDropdown>
                             <MDBDropdownToggle tag='a' className='nav-link' role='button'>
                                 Account
                             </MDBDropdownToggle>
@@ -55,7 +55,7 @@ return (
                                 <MDBDropdownItem link>Login</MDBDropdownItem>
                                 <MDBDropdownItem link>Sign Up</MDBDropdownItem>
                             </MDBDropdownMenu>
-                        </MDBDropdown>
+                        </MDBDropdown> */}
                     </MDBNavbarItem>
                 </MDBNavbarNav>
             </MDBCollapse>
