@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "raxit",
+      "password": "raxit123",
+      "email": "raxit@gmail.com",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": "niru",
+      "password": "niru123",
+      "email": "niru@gmail.com",
+      "gender": "female",
+      "id": 3
+    }
+  ]
+}
